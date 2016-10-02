@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D38A51D3ED3938B928B26E224701705E748421A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D38A51D3ED3938B928B26E224701705E748421A8" : 9223372036854775807,
+    "1CBA4FB15DCB861234EB1014683DB52750293174" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A10A7732-2E6C-4AAF-A44B-9835B5273340",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D38A51D3ED3938B928B26E224701705E748421A8" : "Assignment_4_Pinterest\/",
+    "1CBA4FB15DCB861234EB1014683DB52750293174" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TwitterClient",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TwitterClient.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:BestKora\/Swift-2.3-Solution-Spring-2016.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1CBA4FB15DCB861234EB1014683DB52750293174"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:BestKora\/Smashtag-Weterfall-4-2016.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D38A51D3ED3938B928B26E224701705E748421A8"
+    }
+  ]
+}
