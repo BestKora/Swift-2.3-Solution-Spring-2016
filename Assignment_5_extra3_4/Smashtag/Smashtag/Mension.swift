@@ -58,7 +58,8 @@ class Mension: NSManagedObject {
         }
         let users = twitterInfo.userMentions
         for user in users {
-            Mension.addMensionWithKeyword(user.keyword, andType: "Users", andTerm: term,andTweetM:tweetM,
+            Mension.addMensionWithKeyword(user.keyword,
+                                          andType: "Users", andTerm: term,andTweetM:tweetM,
                                           inManagedObjectContext: context)
         }
         // Для пользователя твита
