@@ -99,7 +99,6 @@ class BreakoutViewController: UIViewController {
         breakoutView.launchSpeedModifier = settings.ballSpeedModifier
         breakoutView.realGravity = settings.realGravity
         breakoutView.gravityMagnitudeModifier = CGFloat(settings.gravityMagnitudeModifier)
-        print ("gravityMagnitudeModifier = \( breakoutView.gravityMagnitudeModifier )")
     }
     
     // MARK: - RESET GAME

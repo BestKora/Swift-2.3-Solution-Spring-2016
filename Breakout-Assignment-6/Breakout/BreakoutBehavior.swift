@@ -132,13 +132,6 @@ class BreakoutBehavior: UIDynamicBehavior, UICollisionBehaviorDelegate {
         pushBehavior.magnitude = magnitude
         let angle = CGFloat(1.25 * M_PI + (0.5 * M_PI) * (Double(arc4random()) / Double(UINT32_MAX)))
         pushBehavior.angle = angle
-        print ( "BreakoutBehavior angle = \(angle)")
-
-
-       /* let randomAngle = minAngle + Int( arc4random_uniform( UInt32(maxAngle - minAngle + 1) ) )
-        let randomAngleRadian = Double(randomAngle) * M_PI / 180.0
-        pushBehavior.angle = CGFloat(randomAngleRadian)*/
-        
         pushBehavior.action = { [weak pushBehavior] in
             if !pushBehavior!.active { self.removeChildBehavior(pushBehavior!) }
         }
@@ -181,11 +174,9 @@ private extension UIDynamicItemBehavior {
         if itemVelocity.magnitude <= 0.0 { return }
         if itemVelocity.magnitude < min {
             let deltaVelocity = min/itemVelocity.magnitude * itemVelocity - itemVelocity
-            //                println ("magnitude = \(itemVelocity.magnitude) delta = \(deltaVelocity)")
             addLinearVelocity(deltaVelocity, forItem: item)
         }
         if itemVelocity.magnitude > max  {
-            //            println(itemVelocity.magnitude )
             (item as! BallView).backgroundColor = UIColor.redColor()
             let deltaVelocity = max/itemVelocity.magnitude * itemVelocity - itemVelocity
             addLinearVelocity(deltaVelocity, forItem: item)
